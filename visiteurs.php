@@ -8,4 +8,4 @@ while(!feof($pays))
     $i++;
 }
 fclose($pays);
-echo $tableau;
+print_r($tableau);

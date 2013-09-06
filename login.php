@@ -6,8 +6,7 @@
 </head>
 
 <body>
-    <form method="post" action="secret.php">
-
+    <form method="post" action="login.php">
         <p>
             Nom : <input type="text" name="nom" />
             Sexe :  <select name="sexe">
@@ -16,7 +15,6 @@
                     </select>
             <input type="submit" value="Valider" />
         </p>
-
     </form>
 </body>
 </html>

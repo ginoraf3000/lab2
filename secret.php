@@ -1,3 +1,9 @@
+<?php
+$expire = 365*24*3600;
+$nom = $_POST["nom"];
+$sexe = $_POST["sexe"];
+setcookie("Biscuit",$nom,$sexe,time()+$expire);
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,12 +12,7 @@
 </head>
 
 <body>
-    <?
-    $expire = 365*24*3600;
-    $nom = $_REQUEST["nom"];
-    $sexe = $_REQUEST["sexe"];
-    setcookie("Biscuit",$nom,$sexe,time()+$expire);
-    ?>
+
     <p>Bite</p>
 </body>
 </html>

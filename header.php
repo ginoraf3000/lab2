@@ -14,6 +14,5 @@
         <a href="lab1c.php">Lab 1c</a><br>
         <a href="visiteurs.php">Lab 2</a><br>
     </p>
-
 </body>
 </html>

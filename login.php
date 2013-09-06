@@ -9,7 +9,7 @@
     <form method="post" action="secret.php">
 
         <p>
-            On insèrera ici les éléments de notre formulaire.
+
         </p>
 
     </form>

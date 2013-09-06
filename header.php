@@ -14,9 +14,6 @@
         <a href="lab1c.php">Lab 1c</a><br>
         <a href="visiteurs.php">Lab 2</a><br>
     </p>
-<<<<<<< HEAD
-=======
     <a href="login.php">Se connecter</a>
->>>>>>> instauration du login (création)
 </body>
 </html>

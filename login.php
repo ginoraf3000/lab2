@@ -8,7 +8,7 @@
 <body>
     <form method="post" action="secret.php">
         <?php
-        if($_COOKIE["prenom"] && $_COOKIE["sexe"])
+        if($_COOKIE["prenom"] and $_COOKIE["sexe"])
         {
             if($_COOKIE["sexe"] == "fem")
             {
@@ -18,7 +18,7 @@
             {
                 $genre = "M.";
             }
-            echo "Bonjour ".$genre.$_COOKIE["prenom"];
+            echo "Bonjour ".$genre." ".$_COOKIE["prenom"];
         }
         else
         {

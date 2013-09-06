@@ -13,6 +13,6 @@ setcookie("sexe",$sexe,time()+$expire);
 </head>
 
 <body>
-    <img src="bienvenue-1.jpg"
+    <img src="bienvenue-1.jpg">
 </body>
 </html>

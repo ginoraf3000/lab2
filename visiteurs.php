@@ -1,6 +1,7 @@
 <html>
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+        <link href="css/bootstrap.css" rel="stylesheet" media="screen">
     </head>
     <body>
     <table border="3">

@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Bienvenue</title>
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 </head>
 
 <body>

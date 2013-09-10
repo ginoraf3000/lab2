@@ -3,6 +3,7 @@
 	<head>
 		<title>Hello World</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <link href="css/bootstrap.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
 		<h1>Ceci est un titre Mother ****** Héhéhéhéhéhéhéhééhéhééhéhéhééhé</h1>

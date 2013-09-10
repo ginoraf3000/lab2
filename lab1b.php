@@ -1,5 +1,5 @@
-<? header('Content-Type: text/html; charset=utf-8'); ?>
-<?php echo '<h1>Bonjour le monde! Héhéhé</h1>';
+<?php header('Content-Type: text/html; charset=utf-8');
+echo '<h1>Bonjour le monde! Héhéhé</h1>';
 echo 'Vous avez demandé cette page le ';
 echo date(" d/m/Y à H\hi");
 echo '</br>';

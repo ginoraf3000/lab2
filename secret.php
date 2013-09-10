@@ -1,5 +1,5 @@
 <?php
-$expire = 365*24*3600;
+$expire = 10;
 $nom = $_POST["nom"];
 $sexe = $_POST["sexe"];
 setcookie("prenom",$nom,time()+$expire);
@@ -15,14 +15,15 @@ setcookie("sexe",$sexe,time()+$expire);
 
 <body>
     <?php
-    if($_COOKIE["prenom"] or $_COOKIE["sexe"])
+    if($_COOKIE["prenom"] and $_COOKIE["sexe"])
     {
         echo '<img src="bienvenue-1.jpg">';
 
     }
     else
     {
-        echo "<p>Impossible d’accéder à cette page, vous devez être logué!</p>";
+        echo '<p>Impossible d’accéder à cette page, vous devez être logué!</p>';
+        header("Refresh: 5;login.php");
     }
 
     ?>

@@ -18,18 +18,22 @@
             {
                 $genre = "M.";
             }
-            echo "Bonjour ".$genre." ".$_COOKIE["prenom"];
+            echo "<p>Bonjour ".$genre." ".$_COOKIE["prenom"]."! Vous pouvez maintenant vous connectez ;)</p>";
+            echo '<p> Nom d&#39;usager : <input type="text" name="pseudo" />
+                Mot de passe :  <input type="password" name="pwd" />
+                <input type="submit" value="Valider" />
+                </p>';
         }
         else
         {
-            echo '<p>
-            Nom : <input type="text" name="nom" />
-            Sexe :  <select name="sexe">
+            echo '<p>Préparation de la pâte à biscuit :</p>';
+            echo '<p> Nom : <input type="text" name="nom" />
+                Sexe :  <select name="sexe">
                         <option value="hom">Homme</option>
                         <option value="fem">Femme</option>
                     </select>
-            <input type="submit" value="Valider" />
-        </p>';
+                <input type="submit" value="Valider" />
+                </p>';
         }
         ?>
     </form>
